@@ -1,0 +1,22 @@
+Schema logico Node-RED per presentazione:
+
+[Inject simulazione ogni 5 s]
+        |
+        v
+[Function crea JSON sensore]
+        |
+        v
+[MQTT OUT topic azienda/campi/meteo]
+        |
+        v
+[MQTT IN su PC centrale]
+        |
+        v
+[Dashboard / Grafana / Database SQLite]
+
+Topic consigliati:
+azienda/campi/meteo
+azienda/irrigazione/rotolone1
+azienda/mezzi/gps
+azienda/biogas/digestore
+azienda/stalla/robot

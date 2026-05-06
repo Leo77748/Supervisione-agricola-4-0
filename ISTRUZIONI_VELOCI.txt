@@ -1,0 +1,33 @@
+ISTRUZIONI VELOCI
+
+INSTALLAZIONE UNA VOLTA SOLA
+1) Installa Python 3.10+
+2) Installa Visual Studio Code
+3) Apri la cartella supervisione_agricola_4_0
+4) Terminale VS Code: CTRL + ò
+5) Scrivi: pip install -r requirements.txt
+
+AVVIO OGNI VOLTA
+1) Apri VS Code
+2) Apri cartella supervisione_agricola_4_0
+3) Terminale: streamlit run app.py
+4) Si apre il browser
+5) Premi F11 per schermo intero
+
+PER SIMULARE
+1) Premi "Carica dati demo"
+2) Vai su Dashboard generale
+3) Mostra mappa, stato moduli e allarmi
+4) Vai su Inserimento dati
+5) Inserisci un dato sensore e premi salva
+6) Vai su Storico e grafici
+7) Fai vedere che il dato è memorizzato
+
+MEMORIZZAZIONE PROCESSO
+Il file azienda_agricola.db salva:
+- dati sensori
+- lavorazioni
+- allarmi
+
+FRASE DA DIRE
+Il programma salva i dati in un database SQLite locale. Anche se chiudo il browser o riavvio il programma, i dati rimangono memorizzati nello storico.
